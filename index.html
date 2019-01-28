@@ -4,11 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="HELLO, I'M DANIEL">
-	  <meta name="keywords" content="web design, affordable web design, professional web design">
-  	<meta name="author" content="Brad Traversy">
+	  <meta name="keywords" content="design, UI/UX, software, Daniel Kim">
+  	<meta name="author" content="Daniel Kim">
+      <style>
+                  .responsive {
+                      max-width: 100%;
+                      height: auto;
+                  }
+              </style>
     <title>Daniel Kim</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/Favicon.png">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   </head>
   <body>
     <header>
@@ -29,14 +36,14 @@
     <section id="showcase">
       <div class="container">
         <h1>HELLO, I'M DANIEL</h1>
-        <p>enthusiast for design, software, and analytics<p>
+        <p>enthusiast for design and software<p>
       </div>
     </section>
 
     <section id="intro">
       <div class="container">
           <div class="box">
-            <img src="./img/ProfPicEdited.jpg">
+            <img src="./img/ProfPicEdited.jpg" class="responsive">
           </div>
         <h1>I'm a Systems Design Engineering Student at the University of Waterloo.</h1>
         
@@ -44,7 +51,8 @@
           </p>
       </div>
     </section>
-
+      
+<!-- Experience Section -->
     <section id="exp">
       <div class="container">
         <div class="box">
@@ -80,26 +88,39 @@
           </div>
       </section>
       
+      <!-- Projects Section -->
       <section id="projbody">
           <div class="container">
             <h3>Shoot 'Em Up</h3>
               <h1 style="font-family: Century Gothic; font-style:italic">Programming Language: Java</h1>
               <div class="box";>
-                  <img src="./img/BulletHell1.png">
+                  <img src="./img/BulletHell1.png" class="responsive center">
+                  <style>
+                  .responsive {
+                      max-width: 100%;
+                      height: auto;
+                  }
+              </style>
               </div>
               <p style="font-family: Avenir; font-style:oblique">A shooter genre game in which 3 different iterative waves of enemies fire bullets at you, the player, who must dodge them all using the keyboard controls (WASD).</p>
           </div>
           
           <div class="container">
               <div class="box";>
-                  <img src="./img/BulletHell2.png">
+                  <img src="./img/BulletHell2.png" class="responsive center">
+                  <style>
+                  .responsive {
+                      max-width: 100%;
+                      height: auto;
+                  }
+              </style>
               </div>
               <p style="font-family: Avenir; font-style:oblique">As the player, you are also able to shoot back at the enemies using the "v" key. Player bullets are differentiated through the colour green.</p>
           </div>
           
           <div class="container">
               <div class="box";>
-                  <img src="./img/BulletHell3.png">
+                  <img src="./img/BulletHell3.png" class="responsive center">
               </div>
               <p style="font-family: Avenir; font-style:oblique">The player scores 1 point every time they survive a wave of enemies or when they kill an enemy by hitting them with 3 bullets. The player starts the game with 5 lives, and the game ends when all lives are lost.</p>
           </div>
@@ -110,35 +131,35 @@
               <h3>Map Creator/Maze Game</h3>
               <h1 style="font-family: Gidole; font-style:italic">Programming Language: Java</h1>
               <div class="box">
-                  <img src="./img/MapCreator1.png">
+                  <img src="./img/MapCreator1.png" class="responsive center">
                     </div>
           <p style="font-family: Avenir; font-style:oblique">A visual Map Creator in which users may build their own map with the side tools that consist of blocks, inventory, and a player.</p>
               </div>
           
           <div class="container">
             <div class="box";>
-              <img src="./img/MapCreator2.png">
+              <img src="./img/MapCreator2.png" class="responsive center">
               </div>
               <p style="font-family: Avenir; font-style:oblique">Users who have finished creating their map can save it as a .txt file.</p>
           </div>
           
           <div class="container">
             <div class="box";>
-              <img src="./img/MapCreator3.png">
+              <img src="./img/MapCreator3.png" class="responsive center">
               </div>
               <p style="font-family: Avenir; font-style:oblique">To play the game, users must now open the Game Panel (a different window) and use the LOAD function to open their saved map.</p>
           </div>
           
           <div class="container">
             <div class="box";>
-              <img src="./img/MapCreator4.png">
+              <img src="./img/MapCreator4.png" class="responsive center">
               </div>
               <p style="font-family: Avenir; font-style:oblique">To start the maze game, users can press PLAY and will be able to move their heart player with the arrow keys. The player must first retrieve money or a key to enter through the ATM machines blocking the paths.</p>
           </div>
           
           <div class="container">
             <div class="box";>
-              <img src="./img/MapCreator5.png">
+              <img src="./img/MapCreator5.png" class="responsive center">
               </div>
               <p style="font-family: Avenir; font-style:oblique">An end game window pops up once the player has finished going through the maze.</p>
           </div>
@@ -148,8 +169,20 @@
       
       
     <footer>
-      <p>Daniel Kim, Copyright &copy; 2018</p>
-        <p>dh55kim@uwaterloo.ca | github.com/danielkim2000 | linkedin.com/in/danielkim2000</p>
+      <div class="container">
+            <p>Daniel Kim &copy; | 2019</p>
+        </div>
+        <div>
+        <a class="btn" href="mailto:dh55kim@uwaterloo.ca?Subject=Hello%20again" target="_blank">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a class="btn" href="https://github.com/dannyhkim" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a class="btn" href="https://www.linkedin.com/in/danielkim2000/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        </div>
     </footer>
   </body>
 </html>
