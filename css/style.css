@@ -62,7 +62,7 @@ header a{
 header li{
   float:left;
   display:inline;
-  padding: 0px 15px 50px 0px;
+  padding: 0px 15px 10px 0px;
 }
 
 header #branding{
