@@ -1,5 +1,5 @@
 body{
-  font: 16px/1.5 Century Gothic, Gill Sans, Avenir;
+  font: 16px/1.5 Century Gothic, Gill Sans, Avenir, Open Sans;
   padding:0;
   margin:0;
   background-color:#ffffff;
@@ -142,8 +142,8 @@ header a:hover{
 #exp h1{
   color:#004c99;
   font-weight:bold;
-    font-size:35px;
-    text-align: left;
+  font-size:35px;
+  text-align: left;
 }
 
 #exp .box img{
