@@ -1,2 +1,2 @@
-# dannyhkim.github.io
+# My Portfolio
 My personal website containing my portfolio and side projects created with HTML & CSS.
